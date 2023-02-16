@@ -1,0 +1,24 @@
+{
+    "name": "twitter-monitor",
+    "version": "1.0.0",
+    "description": "Monitors Twitter for specific keywords and saves relevant tweets to a MongoDB database.",
+    "main": "server.js",
+    "dependencies": {
+        "@discordjs/opus": "^0.8.0",
+        "@discordjs/voice": "^0.11.0",
+        "canvas": "^2.11.0",
+        "chart.js": "^4.2.1",
+        "dotenv": "^10.0.0",
+        "mongodb": "^4.0.2",
+        "mongoose": "^6.9.1",
+        "needle": "^3.2.0",
+        "nodemon": "^2.0.20"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon bot.js --ignore db.json"
+    },
+    "author": "Your Name Here",
+    "license": "ISC"
+}
